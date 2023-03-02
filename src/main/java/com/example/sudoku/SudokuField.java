@@ -12,4 +12,11 @@ public class SudokuField extends Label {
         y = 0;
 
     }
+    public SudokuField(String text){
+        super();
+        super.setText(text);
+        x = 0;
+        y = 0;
+
+    }
 }
