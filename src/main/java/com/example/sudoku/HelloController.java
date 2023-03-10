@@ -39,7 +39,7 @@ public class HelloController {
         selectedSudokuField = clicked;
     }
     public void initialize(){
-        selectedSudokuField = new SudokuField("Tobias der KEK");
+        selectedSudokuField = new SudokuField("Timo der KEK");
 
         numButtons = new Button[]{b_One, b_Two, b_Three, b_Four, b_Five, b_Six, b_Seven, b_Eight, b_Nine};
         for (Button b : numButtons){
